@@ -1,0 +1,104 @@
+#loadScreen{
+	position: fixed;
+	background-color: white;
+	top:0;
+	left:0;
+	width: 100vw;
+	height: 100vh;
+	z-index:1000;
+	
+
+	transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+}
+#loadScreen > figure{
+	position: absolute;
+	width: 300px;
+	z-index:1001;
+	top:50%;
+	left:0;
+	bottom:0;
+	right:0;
+	margin: auto;
+	transform: translateY(-50%);
+	text-align: center;
+}
+#loadScreen > figure> img{
+	width: 100%;
+}
+#loadScreen > figure> p{
+	margin-top: -70px;
+}
+#loadScreen > figure> figcaption{
+	display: inline-block;
+	width:120px;
+	height: 120px;
+	border: 15px solid #ccc;
+	border-top-color: #F4266A;
+	border-top-style:groove;
+	border-radius: 100%;
+	
+	animation: girar 1.5s linear infinite;
+	-o-animation: girar 1.5s linear infinite;
+	-webkit-animation: girar 1.5s linear infinite;
+}
+@keyframes girar{
+	from{ transform: rotate(0deg); }
+	to{ transform: rotate(360deg); }
+}
+header{
+}
+
+
+#copyright{
+	position: fixed;
+	z-index: 998;
+	text-align: right;
+	bottom:0;
+	left:0;
+	margin: 0;
+	padding: 0.3rem 1rem;
+	color: rgba(255,255,255,.5);
+	background-color:#212529;
+	width: 100%;
+}
+.home{
+	padding-bottom: 3rem;
+}
+.home > .row {
+	margin: 0 1rem;
+}
+.logo{
+	height: 40px;
+	margin-left: 1rem;
+}
+a{
+	font-size: 18px;
+}
+.btn-cotiza{
+	color: #212529 !important;
+	font-weight: bold;
+}
+.titulo-home{
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.titulo-home > img {
+	width: 22%;
+	min-width: 250px;
+}
+.card{
+	margin: 1rem 0;
+}
+.card-text{
+	min-height: 48px;
+}
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 1.5rem;
+		padding-left: 1.5rem;
+	}
+	
+}
