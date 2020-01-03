@@ -63,42 +63,9 @@ header{
 	background-color:#212529;
 	width: 100%;
 }
-.home{
-	padding-bottom: 3rem;
-}
-.home > .row {
-	margin: 0 1rem;
-}
-.logo{
-	height: 40px;
-	margin-left: 1rem;
-}
-a{
-	font-size: 18px;
-}
-.btn-cotiza{
-	color: #212529 !important;
-	font-weight: bold;
-}
-.titulo-home{
-	text-align: center;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-}
-.titulo-home > img {
-	width: 22%;
-	min-width: 250px;
-}
-.card{
-	margin: 1rem 0;
-}
-.card-text{
-	min-height: 48px;
-}
-@media (min-width: 992px){
-	.navbar-expand-lg .navbar-nav .nav-link {
-		padding-right: 1.5rem;
-		padding-left: 1.5rem;
-	}
-	
+
+
+.activo{
+	background-color:red;
+	opacity:1;
 }
